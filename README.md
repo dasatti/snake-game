@@ -7,8 +7,7 @@
 
 ## 🎥 Preview
 
-🚀 *Coming soon — add a GIF or screenshot here!*
-*(Tip: Record your game and upload a GIF for extra impact)*
+![Snake Game Demo](assets/game_play.gif)
 
 
 ---
