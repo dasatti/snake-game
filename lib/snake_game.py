@@ -36,9 +36,9 @@ class SnakeGame():
 
     def out_of_screen(self):
         head = self.snake.head
-        if head.xcor() > self.screen_x_end or head.xcor() < self.screen_x_start:
+        if head.xcor() > self.screen_x_end - 8 or head.xcor() < self.screen_x_start + 8:
             return True
-        if head.ycor() > self.screen_y_end or head.ycor() < self.screen_y_start:
+        if head.ycor() > self.screen_y_end - 8 or head.ycor() < self.screen_y_start + 8:
             return True
         return False
 
@@ -73,8 +73,6 @@ class SnakeGame():
         self.footer = Footer()
         self.play_area.draw()
         self.snake.spawn()
-        print("New Game Play")
-        print(f"Playing new game with snake {self.snake.name}")
         self.screen.update()
         self.screen.listen()
         self.screen.onkey(self.play,"space")
@@ -88,7 +86,7 @@ class SnakeGame():
         self.screen.onkey(self.snake.turn_down,"s")
         self.screen.onkey(self.snake.turn_down,"Down")
         self.screen.onkey(self.snake.grow,"g")
-        self.screen.onkey(self.exit_game,"x")
+        self.screen.onkey(self.exit_game,"q")
         # self.screen.exitonclick()
         self.screen.mainloop()
 

