@@ -47,10 +47,9 @@ python main.py
 
 ### 💻 Option 2: Download executable
 
-1. Go to **Releases**
-2. Download `https://drive.google.com/file/d/1OCNXiPRLtvFsNJgjKp9TyJNRfBDudiBv`
-3. Extract zip file
-4. Double-click .exe and play 🎉
+1. 👉 [Download for Windows](https://drive.google.com/drive/folders/1K8Tg3mvZ4jl_9HKmo--sldaMrZMYj32i?usp=sharing)
+2. Extract zip file
+3. Double-click .exe and play 🎉
 
 ---
 
